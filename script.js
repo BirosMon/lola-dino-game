@@ -29,7 +29,7 @@ function jump() {
           position -= 20;
           dino.style.bottom = position + 'px';
         }
-      }, 20);
+      }, 100);
     } else {
       // Subindo
       position += 20;
